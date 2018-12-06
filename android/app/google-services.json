@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "644536042117",
+    "firebase_url": "https://datacollect-b9ce9.firebaseio.com",
+    "project_id": "datacollect-b9ce9",
+    "storage_bucket": "datacollect-b9ce9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644536042117:android:56ece935dc61caeb",
+        "android_client_info": {
+          "package_name": "bball.bballapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644536042117-av6v72p7icv7mogqqf85kgvru3og1spq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA35uA2Ic7xJOA4IiYGUQFAg_m-Xv30mA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
