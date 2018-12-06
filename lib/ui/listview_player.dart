@@ -3,9 +3,9 @@ import 'package:firebase_database/firebase_database.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:bballapp/model/player.dart';
-import 'package:bballapp/ui/listview_team.dart';
-import 'package:bballapp/ui/player_screen.dart';
+import 'package:the_gorgeous_login/model/player.dart';
+import 'package:the_gorgeous_login/ui/listview_team.dart';
+//import 'package:bballapp/ui/player_screen.dart';
 
 class ListViewPlayer extends StatefulWidget {
   @override
@@ -13,7 +13,6 @@ class ListViewPlayer extends StatefulWidget {
 }
 
 final leaguesReference = FirebaseDatabase.instance.reference().child('leagues/league1/schedule/versus1');
-
 
 class _ListViewPlayerState extends State<ListViewPlayer> {
   List<Player> items;

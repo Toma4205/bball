@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bballapp.iml" filepath="$PROJECT_DIR$/bballapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bballapp_android.iml" filepath="$PROJECT_DIR$/bballapp_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TheGorgeousLogin-master.iml" filepath="$PROJECT_DIR$/.idea/TheGorgeousLogin-master.iml" />
     </modules>
   </component>
 </project>

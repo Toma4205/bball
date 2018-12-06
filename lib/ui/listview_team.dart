@@ -3,9 +3,8 @@ import 'package:firebase_database/firebase_database.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:bballapp/model/team.dart';
-
-import 'package:bballapp/model/player.dart';
+import 'package:the_gorgeous_login/model/team.dart';
+import 'package:the_gorgeous_login/model/player.dart';
 
 class ListViewTeam extends StatefulWidget {
   final Player player;
@@ -54,47 +53,47 @@ class _ListViewTeamState extends State<ListViewTeam> {
               itemCount: items.length,
               padding: const EdgeInsets.all(8.0),
               itemBuilder: (context, position) {
-                 return Column(
-                    children: <Widget>[
-                      Divider(height: 5.0),
-                      ListTile(
-                          title: Text(
-                          '${items[position].id}' + ' : ' + '${items[position].points}' + ' pts',
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.deepOrangeAccent,
-                          ),
+                return Column(
+                  children: <Widget>[
+                    Divider(height: 5.0),
+                    ListTile(
+                      title: Text(
+                        '${items[position].id}' + ' : ' + '${items[position].points}' + ' pts',
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.deepOrangeAccent,
                         ),
-                        subtitle: Text(
-                              '${items[position].pointsReels}' + ' pts réels, ' +
-                              '${items[position].pointsVirtuels}' +
-                              ' pts virtuels',
-                          style: new TextStyle(
-                            fontSize: 12.0,
-                            fontStyle: FontStyle.italic,
-                          ),
-                        ),
-                        leading: Column(
-                          children: <Widget>[
-                            Padding(padding: EdgeInsets.all(10.0)),
-                            CircleAvatar(
-                              backgroundColor: Colors.blueAccent,
-                              radius: 19.0,
-                              child: Text(
-                                '${items[position].poste}',
-                                style: TextStyle(
-                                  fontSize: 22.0,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            )
-                          ],
-                        ),
-                        onTap: () =>
-                            _navigateToPlayer(context, items[position]),
                       ),
-                    ],
-                  );
+                      subtitle: Text(
+                        '${items[position].pointsReels}' + ' pts réels, ' +
+                            '${items[position].pointsVirtuels}' +
+                            ' pts virtuels',
+                        style: new TextStyle(
+                          fontSize: 12.0,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      leading: Column(
+                        children: <Widget>[
+                          Padding(padding: EdgeInsets.all(10.0)),
+                          CircleAvatar(
+                            backgroundColor: Colors.blueAccent,
+                            radius: 19.0,
+                            child: Text(
+                              '${items[position].poste}',
+                              style: TextStyle(
+                                fontSize: 22.0,
+                                color: Colors.white,
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                      onTap: () =>
+                          _navigateToPlayer(context, items[position]),
+                    ),
+                  ],
+                );
               }),
         ),
         floatingActionButton: FloatingActionButton(

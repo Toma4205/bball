@@ -72,6 +72,13 @@
             </list>
           </value>
         </entry>
+        <entry key="firebase_auth">
+          <value>
+            <list>
+              <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="firebase_core">
           <value>
             <list>
@@ -97,6 +104,13 @@
           <value>
             <list>
               <option value="C:/src/flutter/packages/flutter_test/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="font_awesome_flutter">
+          <value>
+            <list>
+              <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.2.0/lib" />
             </list>
           </value>
         </entry>
@@ -414,8 +428,10 @@
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.6/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/csslib-0.14.5/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2/lib" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.6.6/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-1.0.3/lib" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.2.0/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/front_end-0.1.4/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/glob-1.1.7/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.13.3+3/lib" />
